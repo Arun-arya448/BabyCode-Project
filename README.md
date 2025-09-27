@@ -9,7 +9,7 @@ A modern and responsive homepage for a fictional IELTS Institute, built using **
 - **Responsive Navbar** with mobile toggle menu  
 - **Courses Section** with full-width background images and overlay text  
 - **Features Section** highlighting institute offerings  
-- **Student Testimonials** section  
+- **Student Reviews** section  
 - **About Page** with institute details  
 - **Contact Page** with contact info and a simple form  
 - **Sticky Footer** with quick links, contact info  
