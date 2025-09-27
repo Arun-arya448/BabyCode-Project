@@ -1,16 +1,67 @@
-# React + Vite
+# IELTS Institute Homepage (React Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive homepage for a fictional IELTS Institute, built using **React JS** and **Tailwind CSS**. This project showcases clean UI design, responsive layout, and multiple pages using **React Router**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 Features
 
-## React Compiler
+- **Responsive Navbar** with mobile toggle menu  
+- **Courses Section** with full-width background images and overlay text  
+- **Features Section** highlighting institute offerings  
+- **Student Testimonials** section  
+- **About Page** with institute details  
+- **Contact Page** with contact info and a simple form  
+- **Sticky Footer** with quick links, contact info  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔹 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React JS** – Component-based frontend  
+- **Tailwind CSS** – Utility-first styling for responsive design  
+- **React Router** – Navigation between multiple pages  
+- **Vite** – Fast development environment  
+
+---
+
+## 🔹 Pages
+
+1. **Home** – Features, Testimonials  
+2. **Courses** – Full-width course cards with overlay text  
+3. **About** – Information about the institute  
+4. **Contact** – Contact details and form  
+
+
+## 🔹 Setup Instructions
+
+1. Clone the repo:
+git clone https://github.com/Arun-arya448/BabyCode-Project.git
+
+Navigate to the project directory:
+cd BabyCode-Project
+
+Install dependencies:
+npm install
+npm install react react-dom
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install lucide-react
+
+Run locally:
+npm run dev
+Open your browser at http://localhost:5173
+
+🔹 Design Choices
+Tailwind CSS: For fast, responsive, and consistent styling
+
+Full-width course images with text overlay for modern look
+
+Sticky footer: Always visible at the bottom, even on short pages
+
+Hover effects: Subtle scaling and shadow on cards for interactivity
+
+Mobile-first design: Fully responsive on desktop, tablet, and mobile
+
+
+
